@@ -12,6 +12,6 @@ If you're not familiar with Linux, or just want to get CrispyBox up and running,
 
 If you want (or require) CrispyBox to be customized, you'll need to [build your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_official_image.md). You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
 
-Independent of the method you choose, it is recommended that you check out the [experimental ideas] (https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for other cool things you can do with CrispyBox, and ways to make your data even more secure.
+Independent of the method you choose, it is recommended that you check out the [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for other cool things you can do with CrispyBox, and ways to make your data even more secure.
 
 Have fun!
