@@ -1,5 +1,6 @@
 # Building a standard CrispyBox from scratch
 *These instructions will walk you through building CrispyBox version 0.9.5-beta+180123*
+
 If you want to use a Linux distribution other than Debian, a cloud storage provider other than Dropbox, modify any of the default settings for the Official CrispyBox, or just want to have lots and lots of fun, you'll need to build your own CrispyBox.
 
 ## CrispyBox minimum requirements
