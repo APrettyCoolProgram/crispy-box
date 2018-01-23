@@ -1,11 +1,11 @@
 # CrispyBox
-## What is CrispyBox?
 My GitHub page has a bunch of nice, clean, working projects. But as a solo hobbyist programmer,the project I am working on depends on my mood and/or what intrests me at the time. That means I have alot of ugly, unfinished code that isn't ready for GitHub. For those projects, I use Dropbox as a code repository.
 
 My Dropbox code repository contains all of my working code, both personal and professional. I don't want all of that synched with my work computers, so I don't install Dropbox on them. But then how do I access my code repository at work? Dropbox doesn't have a portable version, and the hacks that are out there are dubious at best.
 
 So I created CrispyBox, a small-footprint virtual machine that runs the (official) Dropbox daemon to synch data that is available via a samba share.
 
+## What is CrispyBox?
 CrispyBox is:
 * **"Portable"**  I put "portable" in quotes because most likely you'll need virtualization software installed on the computers you want to run CrispyBox on (see [experimental ideas](http://here) for more information about getting around this requirement). But CrispyBox itself can be run from pretty much anywhere, from your local HDD to a USB drive.
 * **Cross-platform**  The official CrispyBox uses Oracle's VirtualBox virtualization software, which is available for Windows, MacOS, and Linux.
