@@ -1,8 +1,6 @@
 # Building a standard CrispyBox from scratch
 *These instructions will walk you through building CrispyBox version 0.9.5-beta+180123*
 
-If you are not familiar with Linux, or just want to get CrispyBox up and running, I would recommend [downloading the Official CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official.md) release.
-
 You'll need to build CrispyBox yourself if want/need to:
 * use a non-Debian-based Linux distribution
 * use a cloud provider other than Dropbox
@@ -10,7 +8,9 @@ You'll need to build CrispyBox yourself if want/need to:
 * use a fixed HDD instead of a dynamic HDD
 * have a swap partition
 
-## CrispyBox minimum requirements
+If you are not familiar with Linux, or just want to get CrispyBox up and running, I would recommend [downloading the Official CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official.md) release.
+
+## CrispyBox minimum requirements for building CrispyBox
 You will need the following to build CrispyBox:
 * A Linux operating system installation ISO
 * Virtualization software
@@ -18,18 +18,16 @@ You will need the following to build CrispyBox:
 * An internet connection
 * About 30 minutes
 
-## CrispyBox recommendations
+## Recommendations for building CrispyBox
 I recommend using the following to build CrispyBox:
 * [Debian linux](https://www.debian.org), version 9.3.0 [network install ISO](https://www.debian.org/CD/netinst/)).
 * [Oracle VirtualBox](https://www.virtualbox.org/), version [5.2.6](http://download.virtualbox.org/virtualbox/5.2.6/).
 
-## CrispyBox suggestions
+## Other suggestions for building CrispyBox
 * Use a 32-bit operating system, unless you have a specific need for 64-bit.
 
-Feel free to use another operating system and/or virtualization software, but understand that the instructions below may need to be changed. 
-
 ## Creating the virtual machine definition
-The minimum requirements of an Official CrispyBox is a VirtualBox VM with the following specifications:
+The minimum specifications of an CrispyBox virtual machine are:
 > * 1 CPU
 > * 512MB RAM
 > * 16MB VRAM
@@ -38,8 +36,10 @@ The minimum requirements of an Official CrispyBox is a VirtualBox VM with the fo
 
 Please see [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for example of how these specifications can be tweaked for your environment. 
 
-## Installing the base Operating System
-The Official CrispyBox uses the "Advanced options > Expert install" installation options. Just take the default options for each choice, except for the following:
+## Installing the base operating system
+These instructions are for Debian, using the "Advanced options > Expert install" installation options. If you are using another operating system, try and mirror these as much as possible.
+
+Just take the default options for each choice, except for the following:
 > * USB-storage driver: unchecked
 > * Hostname: CrispyBox
 > * Root user: yes, root/crispy
