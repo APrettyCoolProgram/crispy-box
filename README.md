@@ -7,10 +7,10 @@ So I created CrispyBox, a small-footprint virtual machine that runs the (officia
 
 ## What is CrispyBox?
 CrispyBox is:
-* **"Portable"**  I put "portable" in quotes because most likely you'll need virtualization software installed on the computers you want to run CrispyBox on (see [experimental ideas](http://here) for more information about getting around this requirement). But CrispyBox itself can be run from pretty much anywhere, from your local HDD to a USB drive.
-* **Cross-platform**  The official CrispyBox uses Oracle's VirtualBox virtualization software, which is available for Windows, MacOS, and Linux.
-* **Secure**  Dropbox data is only available when CrispyBox is running, and then is only available via a password-protected samba share. And here are [other ways](http://here) to make CrispyBox even more secure.
-* **Tiny-ish**  This really depends on how much data you have in Dropbox. CrispyBox itself only takes up ~700MB.
+* **"Portable"** -- I put "portable" in quotes because most likely you'll need virtualization software installed on the computers you want to run CrispyBox on (see [experimental ideas](http://here) for more information about getting around this requirement). But CrispyBox itself can be run from pretty much anywhere, from your local HDD to a USB drive.
+* **Cross-platform** -- The official CrispyBox uses Oracle's VirtualBox virtualization software, which is available for Windows, MacOS, and Linux.
+* **Secure** -- Dropbox data is only available when CrispyBox is running, and then is only available via a password-protected samba share. And here are [other ways](http://here) to make CrispyBox even more secure.
+* **Tiny-ish** -- This really depends on how much data you have in Dropbox. CrispyBox itself only takes up ~700MB.
 
 
 ## Getting started
