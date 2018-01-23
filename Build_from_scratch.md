@@ -77,6 +77,7 @@ $ smbpasswd -a CrispyBox
 $ nano /etc/samba/smb.conf
 ``` 
 Add the following to the bottom of that file:
+```
 [CrispyBox]
 path = /home/crispy
 available = yes
@@ -85,6 +86,7 @@ read only = no
 browsable = yes
 public = yes
 writable = yes
+```
 
 7. Install Dropbox. If you're using another cloud-based provider, skip this step.
 ```shell
