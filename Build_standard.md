@@ -58,7 +58,7 @@ $ apt update
 $ apt upgrade
 ```
 
-3. Install pre-requisite packages. Use the "--no-install-recommends" flag so recommended packages aren't installed.
+3. Install pre-requisite packages. Use the `"--no-install-recommends"` flag so recommended packages aren't installed.
 ```shell
 $ apt install sudo ca-certificates samba screen --no-install-recommends
 ```
