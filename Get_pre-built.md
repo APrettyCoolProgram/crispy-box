@@ -4,7 +4,7 @@ It's the easiest!
 Choose from one of the following:
 
 * [**Standard CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_standard.md)
-* The "official" version of CrispyBox
++ The "official" version of CrispyBox
 * Built on Debian
 * Uses VirtualBox
 * 10GB dynamic HDD (8.9GB available for Dropbox)
