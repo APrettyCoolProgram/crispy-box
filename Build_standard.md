@@ -1,22 +1,23 @@
+# Building the standard build of CrispyBox
+*These instructions will build a version 0.9.5-beta+180124 standard CrispyBox*  
 
-
-## CrispyBox minimum requirements for building CrispyBox
-You will need the following to build CrispyBox:
+## Requirements
+The standard build of CrispyBox has the following minimum requirements:
 * A Linux operating system installation ISO
 * Virtualization software
 * A working knowledge of the Linux command line
 * An internet connection
 * About 30 minutes
 
-## Recommendations for building CrispyBox
-I recommend using the following to build CrispyBox:
+## Recommendations
+The standard build of CrispyBox has the following recommendations:
 * [Debian linux](https://www.debian.org), version 9.3.0 [network install ISO](https://www.debian.org/CD/netinst/).
+* Use a 32-bit operating system, unless you have a specific need for 64-bit.
 * [Oracle VirtualBox](https://www.virtualbox.org/), version [5.2.6](http://download.virtualbox.org/virtualbox/5.2.6/).
 
-## Other suggestions for building CrispyBox
-* Use a 32-bit operating system, unless you have a specific need for 64-bit.
+These instructions will need to be modified if the above recommendations are not met.
 
-## Creating the virtual machine definition
+## Creating the virtual machine
 The minimum specifications of an CrispyBox virtual machine are:
 > * 1 CPU
 > * 512MB RAM
