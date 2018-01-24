@@ -1,19 +1,21 @@
-# Building your own CrispyBox
-You'll need to build CrispyBox yourself if want/need to:
-* use a non-Debian-based Linux distribution
-* use a cloud provider other than Dropbox
-* have more than a maximum of 10GB (9GB for Dropbox) available for storage
-* use a fixed HDD instead of a dynamic HDD
-* have a swap partition
-* just have alot of fun!
+# Downloading a pre-built CrispyBox
+It's the easiest!
 
-If you are not familiar with Linux, or just want to get CrispyBox up and running, I would recommend [downloading the standard build of CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official.md) release.
-
-If you decide to build your own CrispyBox, you can choose from these tutorials:
+Choose from one of the following:
 
 * [**Standard CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_standard.md)
-This version of CrispyBox is as close to "official" as you can get. It's built on Debian , which is a stable and supported operating system. It uses VirtualBox, which is cross-platform. The standard build doesn't have any of the experimental features, and all of the default security is intact.
+* The "official" version of CrispyBox
+* Built on Debian
+* Uses VirtualBox
+* 10GB dynamic HDD (8.9GB available for Dropbox)
+* Requires login to start
+* Requires authentication for fileshare
 
-* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md) This version of CrispyBox is essentially the stable build, but with some of the security measures removed so starting doesn't require interaction.
+* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md)
+* Built on the standard build
+* Autologin is enabled
+* Password is not required when using `sudo` (password still required for fileshare)
 
-* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_experimental.md). This version of CrispyBox is built on the personal build, with some information removed to reduce the footprint.
+* [**Experimental CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_experimental.md).
+* Built on the personal build
+* Reduced footprint.
