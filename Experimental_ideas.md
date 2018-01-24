@@ -62,4 +62,15 @@ $ apt autoclean
 $ apt clean
 ```
 
+### Removing documentation
+I'm not sure how much this will remove.
+1. Login to CrispyBox as crispy
+
+2. Remove documentation
+```shell
+$ sudo rm -rf /user/shared/man/*
+$ sudo rm -rf /user/shared/doc/*
+```
+
+
 
