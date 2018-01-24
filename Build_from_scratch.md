@@ -20,7 +20,7 @@ You will need the following to build CrispyBox:
 
 ## Recommendations for building CrispyBox
 I recommend using the following to build CrispyBox:
-* [Debian linux](https://www.debian.org), version 9.3.0 [network install ISO](https://www.debian.org/CD/netinst/)).
+* [Debian linux](https://www.debian.org), version 9.3.0 [network install ISO](https://www.debian.org/CD/netinst/).
 * [Oracle VirtualBox](https://www.virtualbox.org/), version [5.2.6](http://download.virtualbox.org/virtualbox/5.2.6/).
 
 ## Other suggestions for building CrispyBox
