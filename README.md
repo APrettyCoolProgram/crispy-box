@@ -8,7 +8,13 @@
 * CrispyBox is **tiny**. The standard build of CrispyBox will take up the amount of space to store your Dropbox data, plus about 1.4GB for CrispyBox. And there are [other ways](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) to reduce the footprint even farther.
 
 ## Using a pre-built CrispyBox
-The easiest way to get started with CrispyBox is to download a [pre-built CrispyBox image](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_pre-built.md). This is the way to go if you aren't very familiar with Linux, or just want to get up and running. There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time. The disadvantage to this method is that the standard build uses the default CrispyBox image, credentials, sharepoints, etc, so it's not very secure. You can modify most of these things, but if you really want to customize CrispyBox, you should [build your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md).
+The easiest way to get started with CrispyBox is to download a [pre-built CrispyBox image](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_pre-built.md).
+
+This is the way to go if you aren't very familiar with Linux, or just want to get up and running.
+
+There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time.
+
+The disadvantage to this method is that the standard build uses the default CrispyBox image, credentials, sharepoints, etc, so it's not very secure. You can modify most of these things, but if you really want to customize CrispyBox, you should [build your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md).
 
 ## Building your own CrispyBox
 [Building your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md) is the best way to customize CrispyBox to your needs. You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
