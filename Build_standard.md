@@ -54,7 +54,8 @@ When you are ready to build CrispyBox:
 
 2. Upgrade the system. This way we start with a nice, blank slate.
 ```shell
-$ apt update$ apt upgrade
+$ apt update
+$ apt upgrade
 ```
 
 3. Install pre-requisite packages. Use the "--no-install-recommends" flag so recommended packages aren't installed.
