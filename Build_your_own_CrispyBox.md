@@ -12,6 +12,8 @@ If you are not familiar with Linux, or just want to get CrispyBox up and running
 If you decide to build your own CrispyBox, you can choose from these tutorials:
 
 [**Standard CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_standard.md)
-This version of CrispyBox is as close to "official" as you can get. It's built on Debian , which is a stable and supported operating system. It uses VirtualBox, which is cross-platform. The standard build doesn't have any of the experimental features
+This version of CrispyBox is as close to "official" as you can get. It's built on Debian , which is a stable and supported operating system. It uses VirtualBox, which is cross-platform. The standard build doesn't have any of the experimental features, and all of the default security is intact.
+
+[**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md)This version of CrispyBox is essentially. It's built on Debian , which is a stable and supported operating system. It uses VirtualBox, which is cross-platform. The standard build doesn't have any of the experimental features, and all of the default security is intact.
 
 **Experimental CrispyBox**
