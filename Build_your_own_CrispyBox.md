@@ -16,4 +16,4 @@ This version of CrispyBox is as close to "official" as you can get. It's built o
 
 * [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md) This version of CrispyBox is essentially the stable build, but with some of the security measures removed so starting doesn't require interaction.
 
-**Experimental CrispyBox** Coming soon!
+* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_experimental.md). This version of CrispyBox is built on the personal build, with some information removed to reduce the footprint.
