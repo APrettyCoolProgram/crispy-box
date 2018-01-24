@@ -1,14 +1,4 @@
-# Building a standard CrispyBox from scratch
-*These instructions will walk you through building CrispyBox version 0.9.5-beta+180123*
 
-You'll need to build CrispyBox yourself if want/need to:
-* use a non-Debian-based Linux distribution
-* use a cloud provider other than Dropbox
-* have more than a maximum of 10GB (9GB for Dropbox) available for storage
-* use a fixed HDD instead of a dynamic HDD
-* have a swap partition
-
-If you are not familiar with Linux, or just want to get CrispyBox up and running, I would recommend [downloading the Official CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official.md) release.
 
 ## CrispyBox minimum requirements for building CrispyBox
 You will need the following to build CrispyBox:
