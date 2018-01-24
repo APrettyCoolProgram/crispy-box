@@ -9,3 +9,4 @@ A personal build of CrispyBox is the standard build with some security removed t
 * An internet connection
 * About 5 minutes
 
+2. [OPTIONAL] Install the localepurge package. I like to install this to safely reduce the footprint of CrispyBox by removing uncecessary languages. If you need/want multiple language support, skip this step. This install is interactive, just accept the default choices.```shell$ apt install localepurge```
