@@ -1,5 +1,5 @@
 # Building the standard build of CrispyBox
-*These instructions will build a version 0.9.5-beta+180124 standard CrispyBox*  
+*These instructions will build a standard CrispyBox, version 0.9.5-beta+180124 *  
 
 ## Requirements
 The standard build of CrispyBox has the following minimum requirements:
