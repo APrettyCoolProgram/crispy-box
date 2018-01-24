@@ -3,7 +3,7 @@ It's the easiest!
 
 Choose from one of the following:
 
-* [**Standard CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_standard.md)
+* [**Standard CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_standard.md) version 0.9.5-beta+180124
     * The "official" version of CrispyBox
     * Built on Debian
     * Uses VirtualBox
@@ -11,11 +11,11 @@ Choose from one of the following:
     * Requires login to start
     * Requires authentication for fileshare
 
-* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md)
+* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md) version 0.9.5-beta+180124
     * Built on the standard build
     * Autologin is enabled
     * Password is not required when using `sudo` (password still required for fileshare)
 
-* [**Experimental CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_experimental.md).
+* [**Experimental CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_experimental.md) version 0.9.5-beta+180124
     * Built on the personal build
     * Reduced footprint.
