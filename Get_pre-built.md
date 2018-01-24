@@ -1,11 +1,12 @@
-#Downloading a pre-built CrispyBox
+# Downloading a pre-built CrispyBox
 It's the easiest!
 
-##Choose from one of the following:
+## Choose from one of the following:
 
 * [**Standard CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md)
  CrispyBox (version 0.9.5-beta+180124)
     * The "official" version of CrispyBox
+    * Requires 1.1GB of local HDD space
     * Built on Debian
     * Uses VirtualBox
     * 10GB dynamic HDD (8.9GB available for Dropbox)
@@ -15,6 +16,7 @@ It's the easiest!
 * [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md)
  CrispyBox (version 0.9.5-beta+180124)
     * Built on the standard build
+    * Requires 1.1GB of local HDD space
     * Autologin is enabled
     * Password is not required when using sudo (password still required for fileshare)
 
