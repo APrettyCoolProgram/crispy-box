@@ -1,3 +1,15 @@
+# Starting Dropbox
+
+## Starting Dropbox automatically at login
+1. nano .bashrc
+
+2. Add the following:
+
+if [[ $TERM != "screen" ]]; then
+    screen ~/.dropbox-dist/dropboxd
+fi
+
+
 
 Restart CrispyBox.Login as the "CrispyBox" user.Make sure that the samba share is working correctly. If you are using a Windows host (MacOS/Linux instructions coming soon!), type the following into a Windows Explorer address bar:```\\CrispyBox\CrispyBox```Next, we will install Dropbox. I use Dropbox because there is an official Linux installer, but if you use another cloud provider, just ignore these steps and follow the steps for the provider you use. *Please note that CrispyBox has only been tested with Dropbox functionality!*
 ***A note about synching with Dropbox***
