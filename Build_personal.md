@@ -9,4 +9,37 @@ A personal build of CrispyBox is the standard build with some security removed t
 * An internet connection
 * About 5 minutes
 
-2. [OPTIONAL] Install the localepurge package. I like to install this to safely reduce the footprint of CrispyBox by removing uncecessary languages. If you need/want multiple language support, skip this step. This install is interactive, just accept the default choices.```shell$ apt install localepurge```
+## Removing the password requirements for `sudo`
+*This is obviously a huge security risk, use with caution!*
+Personally I don't want to be prompted to enter my password when using sudo, so I remove that requirement.
+
+1. Login to CrispyBox as the crispy user
+
+2. Start `visudo`
+```shell
+$ sudo visudo
+```
+Add the following to the bottom of the file:
+```
+crispy ALL=(ALL) NOPASSWD: ALL
+```
+3. Reboot (unless you are going to continue building a personal CrispyBox)
+
+## Setting CrispyBox to autologin
+*This is obviously a huge security risk, use with caution!*
+Personally I don't want to login when CrispyBox starts, so I'll have my username login automatically.
+
+1. Login to CrispyBox as the crispy user
+
+2. Open the getty@.service file
+```shell
+$ sudo nano /lib/systemd/system/getty@.service
+```
+Change this line:`ExecStart=-/sbin/agetty --noclear %I $TERM" to "ExecStart=-/sbin/agetty --noclear %I $TERM`
+to this:`ExecStart=-/sbin/agetty --noclear %I $TERM" to "ExecStart=-/sbin/agetty --noclear -a crispy %I $TERM`
+
+3. Reboot (unless you are going to continue building a personal CrispyBox)
+
+## Build complete
+
+Congrats!
