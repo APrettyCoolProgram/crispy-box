@@ -1,15 +1,19 @@
-# Getting the Official CrispyBox
-Downloading the latest Official CrispyBox is the easiest way to 
+# Building your own CrispyBox
+You'll need to build CrispyBox yourself if want/need to:
+* use a non-Debian-based Linux distribution
+* use a cloud provider other than Dropbox
+* have more than a maximum of 10GB (9GB for Dropbox) available for storage
+* use a fixed HDD instead of a dynamic HDD
+* have a swap partition
+* just have alot of fun!
 
-My Dropbox code repository contains all of my working code, both personal and professional. I don't want all of that synched with my work computers, so I don't install Dropbox on them. But then how do I access my code repository at work? Dropbox doesn't have a portable version, and the hacks that are out there are dubious at best.
+If you are not familiar with Linux, or just want to get CrispyBox up and running, I would recommend [downloading the standard build of CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official.md) release.
 
-So I created CrispyBox, a small-footprint virtual machine that runs the (official) Dropbox daemon to synch data that is available via a samba share.
+If you decide to build your own CrispyBox, you can choose from these tutorials:
 
-## What is CrispyBox?
-CrispyBox is:
-* **"Portable"** -- 
+* [**Standard CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_standard.md)
+This version of CrispyBox is as close to "official" as you can get. It's built on Debian , which is a stable and supported operating system. It uses VirtualBox, which is cross-platform. The standard build doesn't have any of the experimental features, and all of the default security is intact.
 
+* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md) This version of CrispyBox is essentially the stable build, but with some of the security measures removed so starting doesn't require interaction.
 
-
-If you're not familiar with Linux, or just want to get CrispyBox up and running, the easiest way to get started is to [download the Official CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official_image.md). There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time. The disadvantage to this method is that the Official CrispyBox uses the default CrispyBox image, credentials, sharepoints, etc. You can modify most of these things, but if you really want to customize CrispyBox, you should [build your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_official_image.md).
-If you want (or require) CrispyBox to be customized, you'll need to [build your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_official_image.md). You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
+* [**Personal CrispyBox**](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_experimental.md). This version of CrispyBox is built on the personal build, with some information removed to reduce the footprint.
