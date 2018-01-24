@@ -1,6 +1,9 @@
 # Building the standard build of CrispyBox
 *These instructions will build a standard CrispyBox, version 0.9.5-beta+180124*
 
+## What is the a standard CrispyBox build
+A standard build of CrispyBox is a basic CrispyBox with default values.
+
 ## Requirements
 The standard build of CrispyBox has the following minimum requirements:
 * A Linux operating system installation ISO
