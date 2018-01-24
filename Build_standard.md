@@ -46,10 +46,10 @@ Just take the default options for each choice, except for the following:
 
 Please see [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for example of how these specifications can be tweaked. 
 
-## Building CrispyBox
-The following steps will build a standard, CrispyBox. Before building CrispyBox, we recommend that you read through the [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for example of how you can customize your CrispyBox build.
+## Preparation
+Before building a standard CrispyBox, we recommend that you read through the [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for example of how you can customize your CrispyBox build.
 
-When you are ready to build CrispyBox:
+## Building CrispyBox
 1. Login to your newly created CrispyBox as root.
 
 2. Upgrade the system. This way we start with a nice, blank slate.
@@ -58,7 +58,7 @@ $ apt update
 $ apt upgrade
 ```
 
-3. Install pre-requisite packages. Use the `"--no-install-recommends"` flag so recommended packages aren't installed.
+3. Install pre-requisite packages. Use the `"-no-install-recommends" flag so recommended packages aren't installed.
 ```shell
 $ apt install sudo ca-certificates samba screen --no-install-recommends
 ```
@@ -70,7 +70,7 @@ $ adduser crispy sudo
 
 5. Create the samba credentials for crispy (password: "crispy").
 ```shell
-$ smbpasswd -a CrispyBox
+$ smbpasswd -a crispy
 ``` 
 
 6. Modify the samba configuration file.
@@ -89,6 +89,11 @@ public = yes
 writable = yes
 ```
 
+7. Logout as root, then login as crispy
+```shell
+$exit
+```
+
 7. Install Dropbox. If you're using another cloud-based provider, skip this step.
 ```shell
 $ wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
@@ -96,13 +101,17 @@ $ wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
 
 8. Cleanup.
 ```shell
-$ apt autoremove
-$ apt autoclean
-$ apt clean
+$ sudo apt autoremove
+$ sudo apt autoclean
+$ sudo apt clean
 $ history -cw
 ```
 And...you've built a standard CrispyBox!
 
-Remember to take a look at [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for ways to reduce the footprint of CrispyBox, add security, or other options.
+## Next steps
 
-Then, when you are ready, we'll start the Dropbox deamon.
+The standard build of CrispyBox requires you to login to start synching, and requires a password when using `sudo`. You can remove these two requirements by modifying your standard build to a [personal build](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_personal.md). Keep in mind that personal builds are not as secure as standard builds.
+
+Also, remember to take a look at [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for ways to reduce the footprint of CrispyBox, add security, or other options.
+
+Then, when you are ready, we'll [start Dropbox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Start_Dropbox_sync.md).
