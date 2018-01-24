@@ -19,9 +19,9 @@ $ sudo rm -rf /user/shared/man/*
 $ sudo rm -rf /user/shared/doc/*
 ```
 
-4. Logout of crispy, and login as root
+4. Login as su
 ```shell
-$ exit
+$ su
 ```
 
 5. Install the `bleachbit` package
@@ -44,6 +44,8 @@ $ apt autoclean
 $ apt clean
 ```
 
+## Complete
+[experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md)
 
 
 
