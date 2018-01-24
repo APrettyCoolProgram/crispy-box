@@ -19,6 +19,9 @@ Once CrispyBox is installed, I don't see a need to keep bleachbit around (if you
 If you are using a dynamic HDD, and have the option to defragment/compress the image in your virtualization software, you may want to defragment and wipe the VMs freespace:```shell$ sudo e4defrag /$ cat /dev/zero > zero.file$ sync$ rm zero.file ```
 If you are using VirtualBox dynamic HDD, you may want to compact the .vdi (Other virtualization software most likely has a similar option).```C:\Program Files\Oracle\VirtualBox>VBoxManage.exe modifyhd --compact "<LOCATION-OF-CRISPY.VDI"  ```This virtual machine was created using "NAT Networking", but for the samba share to work correctly, you'll need to change to "Bridged Networking". You'll need to find where to change this setting in your virtualization software.
 
+localepurge
+
+
 7. [OPTONAL] Create the .CrispyBox directory. We can put CrispyBox-related stuff here.```shell$ mkdir .CrispyBox```
 8. [OPTONAL] I like to put a little history file on the system, so I know what version this is:```shell$ touch .CrispyBox/v0.9.5-beta+180123```5. [OPTIONAL] Install the htop package. It's small and helpful, but also optional.```shell$ apt install htop --no-install-recommends```
 2. [OPTIONAL] Install the localepurge package. I like to install this to safely reduce the footprint of CrispyBox by removing uncecessary languages. If you need/want multiple language support, skip this step. This install is interactive, just accept the default choices.```shell$ apt install localepurge```
