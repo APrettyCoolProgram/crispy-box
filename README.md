@@ -27,6 +27,6 @@ The **personal** pre-built CrispyBox (download [here](https://github.com/APretty
 The personal CrispyBox build sacrifices some security for ease-of-use, but still requires authentication for the fileshare.
 
 ## Building your own CrispyBox
-[Building your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md) is the best way to customize CrispyBox to your needs. You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
+[Building your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_a_standard_CrispyBox.md) is the best way to customize CrispyBox to your needs. You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
 
 Have fun!
