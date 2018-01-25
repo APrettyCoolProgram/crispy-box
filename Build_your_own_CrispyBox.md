@@ -4,8 +4,13 @@ You'll need to build CrispyBox yourself if want/need to:
 * use a cloud provider other than Dropbox
 * have more than a maximum of 10GB (9GB for Dropbox) available for storage
 * use a fixed HDD instead of a dynamic HDD
-* have a swap partition
+* use a swap partition
 * just have alot of fun!
+
+## Building a standard CrispyBox
+
+
+
 
 If you are not familiar with Linux, or just want to get CrispyBox up and running, I would recommend [downloading the standard build of CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official.md) release.
 
