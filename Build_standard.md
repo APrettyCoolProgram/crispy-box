@@ -36,8 +36,8 @@ These instructions are for Debian, using the "Advanced options > Expert install"
 Just take the default options for each choice, except for the following:
 > * USB-storage driver: unchecked
 > * Hostname: CrispyBox
-> * Root user: yes, root/crispy
-> * Create normal account: yes, crispy/crispy
+> * Root user: no
+> * Create normal account: crispy/crispy
 > * Partition disk: use entire disk, create one partition, no swap partition, msdos format
 > * Drivers: Targeted
 > * Use non-free software: Yes
