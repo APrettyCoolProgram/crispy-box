@@ -1,5 +1,4 @@
 # CrispyBox changelog
 
-##### v0.9.5-beta+180124
-* Initial release (standard, personal, experimental)
-
+#### 0.9.5-standard-beta
+* Initial release
