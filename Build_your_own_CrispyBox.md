@@ -52,7 +52,7 @@ Just take the default options for each choice, except for the following:
 > * Deselect all software packages
 > * Device for boot loader installation: /dev/XXX
 
-## Building CrispyBox
+### Building CrispyBox
 
 1. Login to CrispyBox
 
