@@ -39,10 +39,11 @@ Just take the default options for each choice, except for the following:
 > * Root user: no
 > * Create normal account: crispy/crispy
 > * Partition disk: use entire disk, create one partition, no swap partition, msdos format
+> * Kernel: non-meta 686 
 > * Drivers: Targeted
 > * Use non-free software: Yes
 > * Enable source repositories: Yes
-> * Backported software: Checked
+> * Backported software: checked
 > * virtualbox-ose-guest-x11: unchecked
 > * Deselect all software packages
 > * Device for boot loader installation: /dev/XXX
