@@ -11,18 +11,18 @@
 If you aren't very familiar with Linux, or just want to get up and running, the easiest way to get started with CrispyBox is to download a the latest pre-built CrispyBox. There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time.
 
 The **standard** pre-built CrispyBox (download [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md)):
-* ...is built on Debian Linux
-* ...requires VirtualBox (recommended version 5.2.6)
-* ...uses Dropbox
-* ...has a 9GB virtual HDD for Dropbox storage
-* ...requires at least 1GB of local HDD space, and up to 10GB local HDD space (depending on the amount of Dropbox data)
-* ...requires login to start
-* ...requires password for sudo access
-* ...requires authentication for fileshare
+* is built on Debian Linux
+* requires VirtualBox (recommended version 5.2.6)
+* uses Dropbox
+* has a 9GB virtual HDD for Dropbox storage
+* requires at least 1GB of local HDD space, and up to 10GB local HDD space (depending on the amount of Dropbox data)
+* requires login to start
+* requires password for sudo access
+* requires authentication for fileshare
 
 The **personal** pre-built CrispyBox (download [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md)) is the same as the standard build:
-* ...is set to autologin
-* ...does not require a password for sudo access
+* is set to autologin
+* does not require a password for sudo access
 
 The personal CrispyBox build sacrifices some security for ease-of-use, but still requires authentication for the fileshare.
 
