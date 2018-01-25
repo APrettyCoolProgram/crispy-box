@@ -10,7 +10,7 @@
 ## Using a pre-built CrispyBox
 If you aren't very familiar with Linux, or just want to get up and running, the easiest way to get started with CrispyBox is to download a the latest pre-built CrispyBox. There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time.
 
-The standard CrispyBox build (download [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md)):
+The **standard** pre-built CrispyBox (download [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md)):
 * Is built on Debian Linux
 * Requires VirtualBox (recommended version 5.2.6)
 * Uses Dropbox
@@ -20,9 +20,11 @@ The standard CrispyBox build (download [here](https://github.com/APrettyCoolProg
 * Requires password for sudo access
 * Requires authentication for fileshare
 
-The personal CrispyBox build (download [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md)) is the same as the standard build, except:
+The **personal** pre-built CrispyBox (download [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md)) is the same as the standard build:
 * Is set to autologin
 * Does not require a password for sudo access
+
+The personal CrispyBox build sacrifices some security for ease-of-use, but still requires authentication for the fileshare.
 
 ## Building your own CrispyBox
 [Building your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md) is the best way to customize CrispyBox to your needs. You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
