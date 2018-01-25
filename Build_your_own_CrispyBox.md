@@ -58,12 +58,12 @@ Just take the default options for each choice, except for the following:
 
 2. Download the CrispyBox build script:
 ```shell
-wget http://aprettycoolprogram.com/projects/crispybox/crispybox.sh
+$ wget http://aprettycoolprogram.com/projects/crispybox/crispybox.sh
 ```
 
 3. Make the script executable:
 ```shell
-chmod +x crispybox.sh
+$ chmod +x crispybox.sh
 ```
 
 The CrispyBox script automatically installs Dropbox, so if you are using another cloud-provider, you will want to change the code for that.
@@ -72,7 +72,7 @@ Also, parts of this script are interactive.
 
 4. Run the script:
 ```shell
-./crispybox -build
+$ ./crispybox -build
 ```
 
 Once the script has completed, reboot the machine. You will then need to [initialize Dropbox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Get_official.md) (or the provider of your choice).
