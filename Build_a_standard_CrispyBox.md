@@ -43,7 +43,7 @@ Just take the default options for each choice, except for the following:
 > * Root user: no
 > * Create normal account: crispy/crispy
 > * Partition disk: use entire disk, create one partition, no swap partition, msdos format
-> * Kernel: non-meta 686 
+> * Kernel: 686 meta package
 > * Drivers: Targeted
 > * Use non-free software: Yes
 > * Enable source repositories: Yes
