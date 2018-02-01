@@ -8,7 +8,7 @@
 * CrispyBox is **tiny**. The standard build of CrispyBox will take up the amount of space to store your Dropbox data, plus about 1GB for CrispyBox.
 
 ## Using a pre-built CrispyBox
-If you aren't very familiar with Linux, or just want to get up and running, the easiest way to get started with CrispyBox is to download a the latest pre-built CrispyBox. There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time.
+If you aren't very familiar with Linux, or just want to get up and running, the easiest way to get started with CrispyBox is to download a the latest [pre-built CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Pre-built.md). There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time.
 
 The **standard** pre-built CrispyBox (download [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own_CrispyBox.md)):
 * is built on Debian Linux
