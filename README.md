@@ -11,6 +11,6 @@
 If you aren't very familiar with Linux, or just want to get up and running, the easiest way to get started with CrispyBox is to download a the latest [pre-built CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Pre-built_images.md). There are a few things you'll need to do, but for the most part all of the hard work has been done, and you'll be up and running in no time.
 
 ## Building your own CrispyBox
-[Building your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_a_standard_CrispyBox.md) is the best way to customize CrispyBox to your needs. You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
+[Building your own CrispyBox](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Build_your_own.md) is the best way to customize CrispyBox to your needs. You'll have full control over every aspect of building CrispyBox, from the operating system (if you want to use another Linux distribution), the cloud storage provider (if you don't use Dropbox), to the credentials. This method will take longer, and requires basic Linux knowledge.
 
 Have fun!
