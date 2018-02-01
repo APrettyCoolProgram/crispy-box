@@ -2,9 +2,9 @@
 
 #### CrispyBox is a small-footprint virtual machine that runs the (official) Dropbox daemon to synch Dropbox data, which is then available via a samba share.
 
-* CrispyBox is **portable**, and can be run from pretty much anywhere, from your local HDD to a USB drive.. You'll need virtualization software installed on the computers you want to run CrispyBox on (see [experimental ideas](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) for more information about getting around this requirement).
+* CrispyBox is **portable**, and can be run from pretty much anywhere, from your local HDD to a USB drive. The only requirement is that you'll need virtualization software installed on the computers you want to run CrispyBox.
 * CrispyBox is **cross-platform**. The standard build of CrispyBox uses Oracle's VirtualBox virtualization software, which is available for Windows, MacOS, and Linux.
-* CrispyBox is **secure**. By default, CrispyBox requires your credentials to start, Dropbox data is only available when CrispyBox is running, and then is only available via a password-protected samba share. And there are [other ways](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Experimental_ideas.md) to make CrispyBox even more secure.
+* CrispyBox is **secure**. By default, CrispyBox requires your credentials to start, Dropbox data is only available when CrispyBox is running, and then is only available via a password-protected samba share.
 * CrispyBox is **tiny**. The standard build of CrispyBox will take up the amount of space to store your Dropbox data, plus about 1GB for CrispyBox.
 
 ## Using a pre-built CrispyBox
