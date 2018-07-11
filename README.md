@@ -1,5 +1,7 @@
 # CrispyBox
 
+***NOTE***: CrispyBox is being rolled into CrispyDev. I'm leaving this code here for historical purposes.
+
 #### CrispyBox is a small-footprint virtual machine that runs the (official) Dropbox daemon to synch Dropbox data, which is then available via a samba share.
 
 * CrispyBox is **portable**, and can be run from pretty much anywhere, from your local HDD to a USB drive. The only requirement is that you'll need virtualization software installed on the computers you want to run CrispyBox.
