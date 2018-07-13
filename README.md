@@ -31,4 +31,4 @@ I recommend you download the [pre-built](http://aprettycoolprogram.com/projects/
 
 If you require different specifications for your CrispyDeven Virtual Machine, you can [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md) CrispyBox from scratch.
 
-When you spin up your CrispyDeven environment, you'll find a nice looking development environment ready for you to customize, either manually or using an automation tool like CrispyDevenCreate.
+When you spin up your CrispyBox, the Dropbox deamon will automatically starts. Follow the on-screen instructions.
