@@ -18,21 +18,21 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
     * Clipboard: Disabled
 	
 2. Install Debian 9.4.0
-  * Use "Advanced Options > Expert Install"
-  * Accept all defaults, except:
-    * Hostname: CrispyBox
-    * Enable Shadow Passwords: No
-    * Allow login as root: No
-    * Username/password: crispy/crispy
-    * Modules to load - usb-storage (USB storage): Unchecked
-    * Partitioning method - Manual
-      * 10GB msdos-formatted / partition
-      * 700MB ms-dos-formatted swap partition)
-    * Kernel: Targeted
-    * Enable source repositories in APT: No
-    * Packages to install - virtualbox-ose-guest-x11: Unchecked
-    * Choose software to install: Uncheck all options
-    * Device for boot loader installation: /dev/sda
+    * Use "Advanced Options > Expert Install"
+    * Accept all defaults, except:
+      * Hostname: CrispyBox
+      * Enable Shadow Passwords: No
+      * Allow login as root: No
+      * Username/password: crispy/crispy
+      * Modules to load - usb-storage (USB storage): Unchecked
+      * Partitioning method - Manual
+        * 10GB msdos-formatted / partition
+        * 700MB ms-dos-formatted swap partition)
+      * Kernel: Targeted
+      * Enable source repositories in APT: No
+      * Packages to install - virtualbox-ose-guest-x11: Unchecked
+      * Choose software to install: Uncheck all options
+      * Device for boot loader installation: /dev/sda
 
 3. Once the installation is complete, the system will reboot.
 
