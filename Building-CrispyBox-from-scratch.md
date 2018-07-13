@@ -39,11 +39,11 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 4. When the system is back up, login as "crispy/crispy".
 
 5. Download and execute the CrispyBox build script:
-```
-$ wget http://aprettycoolprogram.com/projects/CrispyBox/crispybox-build.sh
-$ chmod +x crispybox-build.sh
-$ ./crispybox-build.sh
-```	
+    ```
+    $ wget http://aprettycoolprogram.com/projects/CrispyBox/crispybox-build.sh
+    $ chmod +x crispybox-build.sh
+    $ ./crispybox-build.sh
+    ```	
 6. Once the prepration script completes, the system will reboot.
 	
 7. When the system is back up, login as "crispy/crispy".
