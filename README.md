@@ -17,11 +17,11 @@ The CrispyBox Summer18 release is built on 32-bit Debian 9.4, and includes:
 
 In order to use CrispyBox, you'll need:
 * Oracle VirtualBox (version 5.2.14 recommended)
-* The CrispyBox VirtualBox Virtual Machine
+* A CrispyBox VirtualBox Virtual Machine
 * 512MB of RAM
 * A minimum of 2GBGB space to store the VM (which can expand up to 10GB, depending on use).
 
-I recommend you download the pre-built Summer18 release, which is a VirtualBox 5.2.14 Virtual Machine with the following specifications:
+I recommend you download the [pre-built](http://aprettycoolprogram.com/projects/CrispyBox/CrispyBox-Summer18.7z) Summer18 release, which is a VirtualBox 5.2.14 Virtual Machine with the following specifications:
 * CPU: 1
 * RAM: 512MB
 * HDD: Dynamic 100GB .VDI using Host I/O
@@ -29,6 +29,6 @@ I recommend you download the pre-built Summer18 release, which is a VirtualBox 5
 * 3D Acceleration: Disabled
 * Clipboard: Disabled
 
-If you require different specifications for your CrispyDeven Virtual Machine, you can [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md)<br> CrispyBox from scratch.
+If you require different specifications for your CrispyDeven Virtual Machine, you can [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md) CrispyBox from scratch.
 
 When you spin up your CrispyDeven environment, you'll find a nice looking development environment ready for you to customize, either manually or using an automation tool like CrispyDevenCreate.
