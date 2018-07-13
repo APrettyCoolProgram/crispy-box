@@ -20,7 +20,7 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 2. Install Debian 9.4.0
 	* Use "Advanced Options > Expert Install"
 	* Accept all defaults, except:
-		> Hostname: CrispyBox
+		- Hostname: CrispyBox
 		> Enable Shadow Passwords: No
 		> Allow login as root: No
 		> Username/password: crispy/crispy
