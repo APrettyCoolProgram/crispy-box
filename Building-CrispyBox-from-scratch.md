@@ -38,63 +38,14 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 
 4. When the system is back up, login as "crispy/crispy".
 
-5. Download and execute the CrispyDeven preparation script:
+5. Download and execute the CrispyBox build script:
 ```
-$ wget http://aprettycoolprogram.com/projects/CrispyDeven/crispydeven-prepare.sh
-$ chmod +x crispydeven-prepare.sh
-$ ./crispydeven-prepare.sh
+$ wget http://aprettycoolprogram.com/projects/CrispyBox/crispybox-build.sh
+$ chmod +x crispybox-build.sh
+$ ./crispybox-build.sh
 ```	
 6. Once the prepration script completes, the system will reboot.
 	
 7. When the system is back up, login as "crispy/crispy".
 
-8. Download and execute the CrispyDeven build script:
-```
-$ wget http://aprettycoolprogram.com/projects/CrispyDeven/crispydeven-build.sh
-$ chmod +x crispydeven-build.sh
-$ ./crispydeven-build.sh
-```
-9. Once the build script completes, the system will reboot.
-
-You should now have a working CrispyDeven environment!
-
-### Installing the VirtualBox Guest Additions
-I recommend you install the VirtualBox Guest Additions, which improve performance of the CrispyDeven Virtual Machine, as well as enable useful functionality such as shared clipboards and host file access.
-
-It's important to note that this script installs the VirtualBox Guest Additions v5.2.14. If you are using a different verison of VirtualBox, you will need to modify the code to reflect the version you are using. 
-```
-$ wget http://aprettycoolprogram.com/projects/CrispyDeven/crispydeven-install-vbox-guest-additions.sh
-$ chmod +x crispydeven-build.sh
-$ ./crispydeven-build.sh
-```
-
-
-
-
-
-### Enabling autologin
-**This is significant security risk**
-If you want the crispy user autologin:
-```
-$ sudo nano /lib/systemd/system/getty@.service
-```
-Then, add change this line:
-```
-ExecStart=-/sbin/agetty --noclear %I $TERM
-```
-to this:
-```
-ExecStart=-/sbin/agetty --noclear -a crispy %I $TERM
-```
-
-### Removing the sudo password requirements.
-**This is significant security risk**
-If you want to remove the password requirements when using sudo:
-```
-$ sudo visudo
-```
-Then, add this line to the bottom of the file:
-```
-crispy ALL=(ALL) NOPASSWD: ALL
-```
-
+Dropbox will automatically start. Follow the on-screen instructions to complete the setup.
