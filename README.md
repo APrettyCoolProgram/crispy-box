@@ -36,9 +36,7 @@ When you spin up your CrispyBox, the Dropbox deamon will automatically starts. F
 Once Dropbox starts synching, you'll need to get the IP Address of the CrispyBox, so you'll know where to map. First, open a new instance of screen:
     ```
     Ctrl-A, c
-    ```	
-  
-Then get the IP for CrispyBox:
+    ```	, then get the IP for CrispyBox:
     ```
     $ ip addr show
     ```	
