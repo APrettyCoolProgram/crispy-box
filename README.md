@@ -31,7 +31,7 @@ I recommend you download the [pre-built](http://aprettycoolprogram.com/projects/
 
 If you require different specifications for your CrispyDeven Virtual Machine, you can [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md) CrispyBox from scratch.
 
-When you spin up your CrispyBox, the Dropbox deamon will automatically starts. Follow the on-screen instructions to start syncing your data.
+When you spin up your CrispyBox, the Dropbox deamon will automatically start. Follow the on-screen instructions to start syncing your data.
 
 Once Dropbox starts syncing, you'll need to get the IP Address of the CrispyBox, so you'll know where to map. First, open a new instance of screen:
     ```
