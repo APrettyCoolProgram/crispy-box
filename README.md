@@ -40,5 +40,5 @@ Once Dropbox starts synching, you'll need to get the IP Address of the CrispyBox
     ```
     $ ip addr show
     ```	
-    4
+
 Finally, using your preferred method, map to "\\<IP_ADDRESS>\CrispyBox".
