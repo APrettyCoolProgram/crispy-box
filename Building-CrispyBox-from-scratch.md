@@ -10,12 +10,12 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 
 ### Building the base image
 1. Create VirtualBox v5.2.14 Virtual Machine. The following specifications are recommended, but you should modify them to suit your needs.
-  * CPU: 1
-  * RAM: 512MB
-  * HDD: Dynamic 10GB .VDI using Host I/O
-  * VRAM: 16MB
-  * 3D Acceleration: Disabled
-  * Clipboard: Disabled
+    * CPU: 1
+    * RAM: 512MB
+    * HDD: Dynamic 10GB .VDI using Host I/O
+    * VRAM: 16MB
+    * 3D Acceleration: Disabled
+    * Clipboard: Disabled
 	
 2. Install Debian 9.4.0
   * Use "Advanced Options > Expert Install"
