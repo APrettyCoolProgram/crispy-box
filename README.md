@@ -33,12 +33,12 @@ If you require different specifications for your CrispyDeven Virtual Machine, yo
 
 When you spin up your CrispyBox, the Dropbox deamon will automatically starts. Follow the on-screen instructions to start syncing your data.
 
-Once Dropbox starts synching, you'll need to get the IP Address of the CrispyBox, so you'll know where to map. First, open a new instance of screen:
+Once Dropbox starts syncing, you'll need to get the IP Address of the CrispyBox, so you'll know where to map. First, open a new instance of screen:
     ```
     Ctrl-A, c
     ```	, then get the IP for CrispyBox:
     ```
     $ ip addr show
-    ```	
-.
+    ```.
+
 Finally, using your preferred method, map to "\\<IP_ADDRESS>\CrispyBox".

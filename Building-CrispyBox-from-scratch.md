@@ -50,12 +50,12 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 
 Dropbox will automatically start. Follow the on-screen instructions to complete the setup.
 
-Once Dropbox starts synching, you'll need to get the IP Address of the CrispyBox, so you'll know where to map. First, open a new instance of screen:
+Once Dropbox starts syncing, you'll need to get the IP Address of the CrispyBox, so you'll know where to map. First, open a new instance of screen:
     ```
     Ctrl-A, c
     ```	, then get the IP for CrispyBox:
     ```
     $ ip addr show
-    ```	
-.
+    ```.
+
 Finally, using your preferred method, map to "\\<IP_ADDRESS>\CrispyBox".
