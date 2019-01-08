@@ -19,6 +19,7 @@ Create VirtualBox v6.0.0 Virtual Machine. The following specifications are recom
 | VRAM            | 16MB | 
 | 3D Acceleration | Disabled |
 | Clipboard       | Disabled |
+| Network         | Bridged |
 
 Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 
@@ -48,6 +49,8 @@ $ wget --no-check-certificate https://raw.githubusercontent.com/APrettyCoolProgr
 $ chmod +x crispybox-build.sh
 $ ./crispybox-build.sh
 ```	
+
+When asked to enter the SAMBA password, enter "crispy".
 
 After the script completes, the system will shutdown.
 	
