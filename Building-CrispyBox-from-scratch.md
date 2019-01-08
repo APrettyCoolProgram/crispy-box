@@ -11,6 +11,7 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 ### Building the base image
 1. Create VirtualBox v6.0.0 Virtual Machine. The following specifications are recommended, but you should modify them to suit your needs.
     
+|                 |   |
 |-----------------|---|
 | CPU             | 1 |
 | RAM             | 512MB |
