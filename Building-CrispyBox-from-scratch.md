@@ -44,7 +44,7 @@ Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 Once the installation is complete, the system will reboot. When the system is back up, login as "crispy/crispy", then download and execute the CrispyBox build script:
 
 ```
-$ wget http://aprettycoolprogram.com/projects/CrispyBox/crispybox-build.sh
+$ wget --no-check-certificate https://raw.githubusercontent.com/APrettyCoolProgram/CrispyBox/master/crispybox-build.sh
 $ chmod +x crispybox-build.sh
 $ ./crispybox-build.sh
 ```	
