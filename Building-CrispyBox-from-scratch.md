@@ -49,7 +49,7 @@ $ chmod +x crispybox-build.sh
 $ ./crispybox-build.sh
 ```	
 
-After the script completes, the system will reboot.
+After the script completes, the system will shutdown.
 	
 When the system is back up, login as "crispy/crispy".
 
