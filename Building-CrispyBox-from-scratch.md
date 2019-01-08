@@ -4,7 +4,7 @@ These are the steps/guidelines I used to create CrispyBox 19.1
 
 ### What you will need
 * The [32-bit Debian 9.6.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.6.0-i386-netinst.iso)
-* [VirtualBox 6.0.0](https://www.virtualbox.org/wiki/Downloads). 
+* [VirtualBox 6.0.0](https://www.virtualbox.org/wiki/Downloads)
 
 Other versions of Debian and VirtualBox will probably work, but have not been tested. Other Debian-based distributions will probably work, but may require some code modifications.
 
@@ -42,11 +42,13 @@ Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 | Device for boot loader installation | /dev/sda |   |
 
 Once the installation is complete, the system will reboot. When the system is back up, login as "crispy/crispy", then download and execute the CrispyBox build script:
+
     ```
     $ wget http://aprettycoolprogram.com/projects/CrispyBox/crispybox-build.sh
     $ chmod +x crispybox-build.sh
     $ ./crispybox-build.sh
     ```	
+
 After the script completes, the system will reboot.
 	
 When the system is back up, login as "crispy/crispy".
