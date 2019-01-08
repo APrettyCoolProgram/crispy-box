@@ -3,8 +3,8 @@
 These are the steps/guidelines I used to create CrispyBox 19.1
 
 ### What you will need
-* *The 32-bit Debian 9.6.0 netinst iso*, which you can download [here](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.6.0-i386-netinst.iso).
-* *VirtualBox 6.0.0*, which you can download [here](https://www.virtualbox.org/wiki/Downloads). 
+* The [32-bit Debian 9.6.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.6.0-i386-netinst.iso)
+* [VirtualBox 6.0.0](https://www.virtualbox.org/wiki/Downloads). 
 
 Other versions of Debian and VirtualBox will probably work, but have not been tested. Other Debian-based distributions will probably work, but may require some code modifications.
 
