@@ -11,7 +11,6 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 ### Building the base image
 1. Create VirtualBox v6.0.0 Virtual Machine. The following specifications are recommended, but you should modify them to suit your needs.
     
-|                 |   |
 |-----------------|---|
 | CPU             | 1 |
 | RAM             | 512MB |
@@ -31,7 +30,10 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 | Modules to load                             | usb-storage (USB storage | Unchecked |
 | Partitioning method                         | Primary | 10GB msdos-formatted "/" partition |
 |                                             | Logical | 700MB msdos-formatted "swap" partition |
-| Kernel                                      | Targeted |   |
+| Kernel                                      | linux-image-686 |   |
+| Include in the initrd                       | targeted |   |
+| Use non-free software                       | No |   |
+| Use contrib software                        | No |   |
 | Enable source repositories in APT           | No |   |
 | Allow login as root                         | No |   |
 | Packages to install                         | virtualbox-ose-guest-x11 | Unchecked |
