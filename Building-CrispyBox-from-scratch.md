@@ -41,19 +41,15 @@ Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 | Choose software to install          | Uncheck all options |   |
 | Device for boot loader installation | /dev/sda |   |
 
-3. Once the installation is complete, the system will reboot.
-
-4. When the system is back up, login as "crispy/crispy".
-
-5. Download and execute the CrispyBox build script:
+Once the installation is complete, the system will reboot. When the system is back up, login as "crispy/crispy", then download and execute the CrispyBox build script:
     ```
     $ wget http://aprettycoolprogram.com/projects/CrispyBox/crispybox-build.sh
     $ chmod +x crispybox-build.sh
     $ ./crispybox-build.sh
     ```	
-6. Once the prepration script completes, the system will reboot.
+After the script completes, the system will reboot.
 	
-7. When the system is back up, login as "crispy/crispy".
+When the system is back up, login as "crispy/crispy".
 
 Dropbox will automatically start. Follow the on-screen instructions to complete the setup.
 
