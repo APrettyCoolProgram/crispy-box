@@ -12,7 +12,7 @@ In order to use CrispyBox, you'll need:
 * The [CrispyBox 19.1 VirtualBox Virtual Machine image](here) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md))
 * 512MB of RAM and a minimum of 2GBGB space to store the VM (which can expand up to 10GB, depending on use)
 
-## Using CrispyBox
+### Using CrispyBox
 When you spin up your CrispyBox, the Dropbox deamon will automatically start. Follow the on-screen instructions to start syncing your data.
 
 Once Dropbox starts syncing, you'll need to get the IP Address of the CrispyBox, so you'll know where to map. First, open a new instance of screen:
