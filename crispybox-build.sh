@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# Builds a Summer18 release of CrispyBox
-# b180713
-# http://aprettycoolprogram.com/crispydeven
-# Apache License v2.0
+# CrispyBox 2019
+# Version 19.1
+# https://github.com/APrettyCoolProgram/CrispyBox
 
 # Update system and install prerequisites.
 sudo apt update -y
@@ -21,7 +20,7 @@ sudo smbpasswd -a crispy
 printf "[CrispyBox]\npath = /home/crispy\navailable = yes\nvalid users = crispy\nread only = no\nbrowsable = yes\npublic = yes\nwritable = yes" | sudo tee -a /etc/samba/smb.conf
 
 # Update the MOTD
-printf "\n ***********************\n CrispyBox (Summer 2018)\n ***********************\n\n"  | sudo tee -a /etc/motd
+printf "\n ***********************\n CrispyBox 19.1\n ***********************\n\n"  | sudo tee -a /etc/motd
 
 # Cleanup.
 sudo apt purge -y dictionaries-common ispell wamerican laptop-detect vim-common
