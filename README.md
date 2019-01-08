@@ -7,9 +7,9 @@ A a small-footprint, cross-platform, portable, official Dropbox client built on 
 * CrispyBox is **secure**. By default, CrispyBox requires your credentials to start, Dropbox data is only available when CrispyBox is running, and then is only available via a password-protected samba share.
 
 In order to use CrispyBox, you'll need:
-* Oracle VirtualBox, ([version 6.0.0](https://www.virtualbox.org/wiki/Downloads) recommended)
-* The [CrispyBox 19.1 VirtualBox Virtual Machine image](here). You can also [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md) CrispyBox from scratch.
-* 512MB of RAM and a minimum of 2GBGB space to store the VM (which can expand up to 10GB, depending on use).
+* Oracle VirtualBox, ([version 6.0.0 recommended](https://www.virtualbox.org/wiki/Downloads)
+* The [CrispyBox 19.1 VirtualBox Virtual Machine image](here) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md))
+* 512MB of RAM and a minimum of 2GBGB space to store the VM (which can expand up to 10GB, depending on use)
 
 When you spin up your CrispyBox, the Dropbox deamon will automatically start. Follow the on-screen instructions to start syncing your data.
 
