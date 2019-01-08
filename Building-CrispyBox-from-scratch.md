@@ -22,24 +22,24 @@ Create VirtualBox v6.0.0 Virtual Machine. The following specifications are recom
 
 Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 
-| Accept all defaults, except                 |   |   | 
-|---------------------------------------------|---|   |
-| Hostname                                    | CrispyBox |   |
-| Enable Shadow Passwords                     | No |   |
-| Allow login as root                         | No |   |
-| Username/password                           | "crispy"/"crispy" |   | 
-| Modules to load                             | usb-storage (USB storage | Unchecked |
-| Partitioning method                         | Primary | 10GB msdos-formatted "/" partition |
-|                                             | Logical | 700MB msdos-formatted "swap" partition |
-| Kernel                                      | linux-image-686 |   |
-| Include in the initrd                       | targeted |   |
-| Use non-free software                       | No |   |
-| Use contrib software                        | No |   |
-| Enable source repositories in APT           | No |   |
-| Allow login as root                         | No |   |
-| Packages to install                         | virtualbox-ose-guest-x11 | Unchecked |
-| Choose software to install                  | Uncheck all options |   |
-| Device for boot loader installation         | /dev/sda |   |
+|  Accept all defaults, except        |   |   |
+|-------------------------------------|---|---|
+| Hostname                            | CrispyBox |   |
+| Enable Shadow Passwords             | No |   |
+| Allow login as root                 | No |   |
+| Username/password                   | "crispy"/"crispy" |   | 
+| Modules to load                     | usb-storage (USB storage | Unchecked |
+| Partitioning method                 | Primary | 10GB msdos-formatted "/" partition |
+|                                     | Logical | 700MB msdos-formatted "swap" partition |
+| Kernel                              | linux-image-686 |   |
+| Include in the initrd               | targeted |   |
+| Use non-free software               | No |   |
+| Use contrib software                | No |   |
+| Enable source repositories in APT   | No |   |
+| Allow login as root                 | No |   |
+| Packages to install                 | virtualbox-ose-guest-x11 | Unchecked |
+| Choose software to install          | Uncheck all options |   |
+| Device for boot loader installation | /dev/sda |   |
 
 3. Once the installation is complete, the system will reboot.
 
