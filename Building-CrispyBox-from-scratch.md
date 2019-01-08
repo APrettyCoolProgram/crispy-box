@@ -9,7 +9,7 @@ These are the steps/guidelines I used to create CrispyBox 19.1
 Other versions of Debian and VirtualBox will probably work, but have not been tested. Other Debian-based distributions will probably work, but may require some code modifications.
 
 ### Building the base image
-1. Create VirtualBox v6.0.0 Virtual Machine. The following specifications are recommended, but you should modify them to suit your needs.
+Create VirtualBox v6.0.0 Virtual Machine. The following specifications are recommended, but you should modify them to suit your needs.
     
 |                 |   |
 |-----------------|---|
@@ -20,7 +20,7 @@ Other versions of Debian and VirtualBox will probably work, but have not been te
 | 3D Acceleration | Disabled |
 | Clipboard       | Disabled |
 
-2. Install Debian 9.6.0, using "Advanced Options > Expert Install"
+Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 
 | Accept all defaults, except                 |   |   | 
 |---------------------------------------------|---|   |
