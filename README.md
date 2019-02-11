@@ -28,7 +28,7 @@ In order to use CrispyBox, you'll need:
 ### Releases
 CrispyDeven is part of the  [CrispyDeven](https://github.com/APrettyCoolProgram/CrispyDeven) development cycle, although updates are quarterly rather than monthly. The current release of CrispyBox is version 19.1 (January 2019).
 
-To ensure stability not much changes between releases, The (boring) changelog is [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Changelog.md).
+To ensure stability not much changes between releases. The (boring) changelog is [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Changelog.md).
 
 ### Using CrispyBox
 When you spin up your CrispyBox, the Dropbox deamon will automatically start. Follow the on-screen instructions to start syncing your data.
