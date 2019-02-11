@@ -26,9 +26,9 @@ In order to use CrispyBox, you'll need:
 * 512MB of RAM and a minimum of 2GBGB space to store the VM (which can expand up to 10GB, depending on use)
 
 ### Releases
-CrispyDeven is part of the  [CrispyDeven](https://github.com/APrettyCoolProgram/CrispyDeven) cycle, although updates are quarterly rather than monthly. The current release of CrispyBox is version 19.1 (January 2019).
+CrispyDeven is part of the  [CrispyDeven](https://github.com/APrettyCoolProgram/CrispyDeven) development cycle, although updates are quarterly rather than monthly. The current release of CrispyBox is version 19.1 (January 2019).
 
-See [what's changed](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Changelog.md)
+To ensure stability not much changes between releases, The (boring) changelog is [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Changelog.md).
 
 ### Using CrispyBox
 When you spin up your CrispyBox, the Dropbox deamon will automatically start. Follow the on-screen instructions to start syncing your data.
@@ -44,4 +44,4 @@ then get the IP for CrispyBox:
 Finally, using your preferred method, map to "\\<IP_ADDRESS>\CrispyBox". 
 
 ### Acknowledgements
-All icons are from [Game Icons](http://game-icons.net)
+All icons are from [Game Icons](http://game-icons.net).
