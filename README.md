@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://github.com/APrettyCoolProgram/CrispyDeven/blob/master/AppData/Images/Project/CrispyBox-256.png" alt="CrispyDeven" width="256">
+    <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/AppData/Images/Project/CrispyBox-256.png" alt="CrispyDeven" width="256">
     <br>
     CrispyDeven
     <br>
