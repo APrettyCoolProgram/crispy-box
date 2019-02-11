@@ -1,7 +1,7 @@
 <h1 align="center">
-    <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/AppData/Images/Project/CrispyBox-256.png" alt="CrispyDeven" width="256">
+    <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/AppData/Images/Project/CrispyBox-256.png" alt="CrispyBox" width="256">
     <br>
-    CrispyDeven
+    CrispyBox
     <br>
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
     <img src="https://img.shields.io/badge/Platform-Linux--32%2F64-blue.svg" alt=".NET version">
@@ -37,3 +37,6 @@ then get the IP for CrispyBox:
 ```$ ip addr show```
 
 Finally, using your preferred method, map to "\\<IP_ADDRESS>\CrispyBox". 
+
+### Acknowledgements
+All icons are from [Game Icons](http://game-icons.net)
