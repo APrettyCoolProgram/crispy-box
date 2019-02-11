@@ -1,6 +1,19 @@
-# CrispyBox
-A a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
+<h1 align="center">
+    <img src="https://github.com/APrettyCoolProgram/CrispyDeven/blob/master/AppData/Images/Project/CrispyBox-256.png" alt="CrispyDeven" width="256">
+    <br>
+    CrispyDeven
+    <br>
+    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
+    <img src="https://img.shields.io/badge/Platform-Linux--32%2F64-blue.svg" alt=".NET version">
+    <img src="https://img.shields.io/badge/Development%20Status-Active-brightgreen.svg" alt="Development status">
+    <a href="https://help.github.com/articles/about-pull-requests/">
+        <img src="https://img.shields.io/badge/Pull Requests-Go%20for%20it-brightgreen.svg?style=shields" alt="Pull requests">
+    </a>
+</h1>
 
+CrispyBox is a a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
+
+### Features
 * CrispyBox is **tiny**. The standard build of CrispyBox only needs 512MB RAM, and will take up the amount of space to store your Dropbox data, plus about 1GB for CrispyBox.
 * CrispyBox is **cross-platform**. The standard build of CrispyBox uses Oracle's VirtualBox virtualization software, which is available for Windows, MacOS, and Linux.
 * CrispyBox is **portable**, and can be run from pretty much anywhere, from your local HDD to a USB drive. The only requirement is that you'll need VirtualBox software installed on the computers you want to run CrispyBox.
