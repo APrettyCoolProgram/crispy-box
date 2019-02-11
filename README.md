@@ -11,7 +11,7 @@
     </a>
 </h1>
 
-CrispyBox is a a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
+CrispyBox, part of the [CrispyDeven project](https://github.com/APrettyCoolProgram/CrispyDeven), is a a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
 
 ### Features
 * CrispyBox is **tiny**. The standard build of CrispyBox only needs 512MB RAM, and will take up the amount of space to store your Dropbox data, plus about 1GB for CrispyBox.
