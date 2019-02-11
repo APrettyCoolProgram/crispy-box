@@ -11,7 +11,7 @@
     </a>
 </h1>
 
-CrispyBox, part of the [CrispyDeven project](https://github.com/APrettyCoolProgram/CrispyDeven), is a a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
+CrispyBox, part of the [Crispy project](https://github.com/APrettyCoolProgram/Crispy), is a a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
 
 ### Features
 * CrispyBox is **tiny**. The standard build of CrispyBox only needs 512MB RAM, and will take up the amount of space to store your Dropbox data, plus about 1GB for CrispyBox.
@@ -26,7 +26,7 @@ In order to use CrispyBox, you'll need:
 * 512MB of RAM and a minimum of 2GBGB space to store the VM (which can expand up to 10GB, depending on use)
 
 ### Releases
-CrispyDeven is part of the  [CrispyDeven](https://github.com/APrettyCoolProgram/CrispyDeven) development cycle, although updates are quarterly rather than monthly. The current release of CrispyBox is version 19.1 (January 2019).
+CrispyBox is part of the  [Crispy](https://github.com/APrettyCoolProgram/Crispy) development cycle, although updates are quarterly rather than monthly. The current release of CrispyBox is version 19.1 (January 2019).
 
 To ensure stability not much changes between releases. The (boring) changelog is [here](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Changelog.md).
 
