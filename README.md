@@ -25,6 +25,11 @@ In order to use CrispyBox, you'll need:
 * The [CrispyBox 19.1 VirtualBox Virtual Machine image](https://github.com/APrettyCoolProgram/CrispyBox/releases/download/19.1/CrispyBox-19.1.7z) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md))
 * 512MB of RAM and a minimum of 2GBGB space to store the VM (which can expand up to 10GB, depending on use)
 
+### Releases
+CrispyDeven is part of the  [CrispyDeven](https://github.com/APrettyCoolProgram/CrispyDeven) cycle, although updates are quarterly rather than monthly. The current release of CrispyBox is version 19.1 (January 2019).
+
+See [what's changed](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Changelog.md)
+
 ### Using CrispyBox
 When you spin up your CrispyBox, the Dropbox deamon will automatically start. Follow the on-screen instructions to start syncing your data.
 
