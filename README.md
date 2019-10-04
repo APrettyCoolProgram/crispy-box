@@ -8,7 +8,7 @@
   <br>
   <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/reporesource/image/CrispyBoxLogoLarge.png" alt="CrispyBox" width="200">
   <br>
-  A cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM
+  A small, cross-platform, portable, VirtualBox Linux VM with Dropbox via SAMBA
 
   <br>
   <br>
