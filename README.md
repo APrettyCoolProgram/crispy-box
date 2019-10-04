@@ -35,20 +35,8 @@
   [ABOUT THIS REPOSITORY](#about-this-repository)<br>
   [FEATURES](#features)<br>
   [REQUIREMENTS](#requirments)<br>
-  [EXAMPLE](#example)<br>
-  [BEFORE YOU BEGIN](#before-you-begin)<br>
-  [INSTALLATION](#installation)<br>
-  [BUILD PROCESS](#build-process)<br>
-  [SETUP](#setup)<br>
-  [CONFIGURATION](#configuration)<br>
+  [GETTING STARTED](#getting-started)<br>
   [USAGE](#usage)<br>
-  [UPDATING](#updating)<br>
-  [UNINSTALL](#uninstall)<br>
-  [DEMO](#demo)<br>
-  [HOW IT WORKS](#how-it-works)<br>
-  [API](#api)<br>
-  [FAQ](#faq)<br>
-  [SUPPORT](#support)<br>
   [DEVELOPMENT](#development)<br>
   [ADDENDUM](#addendum)
 
