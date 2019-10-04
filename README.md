@@ -100,22 +100,20 @@ All icons are from [Icons8](www.icons8.com)
 * [Code of conduct](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/CODE_OF_CONDUCT.md)
 * [Contributing](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/CONTRIBUTING.md)
 * [License](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/LICENSE.md)
-
+* 
 ### Related projects
 <div>
   <a href="https://github.com/APrettyCoolProgram/Crispy">
-    <img src="https://github.com/APrettyCoolProgram/Crispy/blob/master/reporesource/image/CrispyLogoSmall.png" align="left" title="CrispyBox" width="80">
+    <img src="https://github.com/APrettyCoolProgram/Crispy/blob/master/reporesource/image/CrispyLogoSmall.png" align="left" title="Crispy" width="100">
   </a>
-  <a href="https://github.com/APrettyCoolProgram/Crispy"><b>CRISPY</b></a>
+  <br>
+  <a href="https://github.com/APrettyCoolProgram/Crispy"><b>Crispy</b></a>
   <br>
   A collection of projects focusing on development environments and Linux
-  <br>
-  <br>
-  <br>
 </div>
+<br>
 
 ***
-
 <div align="center">
 
   [![Developed by](https://img.shields.io/badge/developed%20by-A%20Pretty%20Cool%20Program-17806D.svg)](https://aprettycoolprogram.com)&nbsp;
