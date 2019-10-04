@@ -1,1 +1,2 @@
-# Known issues
+# CODE OF CONDUCT
+Coming soon.

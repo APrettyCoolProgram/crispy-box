@@ -1,1 +1,3 @@
-# Known issues
+# CONTRIBUTING
+
+Coming soon.
