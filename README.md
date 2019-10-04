@@ -100,7 +100,7 @@ All icons are from [Icons8](www.icons8.com)
 * [Code of conduct](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/CODE_OF_CONDUCT.md)
 * [Contributing](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/CONTRIBUTING.md)
 * [License](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/LICENSE.md)
-* 
+  
 ### Related projects
 <div>
   <a href="https://github.com/APrettyCoolProgram/Crispy">
