@@ -1,15 +1,46 @@
-<h1 align="center">
-    <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/AppData/Image/Project/CrispyBox-214.png" alt="CrispyBox" width="256">
-    <br>
-    CrispyBox
-    <br>
+<!-- GRU-Readme v3.1.0.191003 (https://github.com/APrettyCoolProgram/GRU-Readme) --------------------------------------
+     GRU-README is customizable README.md template written in GitHub-flavored Markdown and HTML. The source contains
+     an abundance of comments walking you through how to use each component.
+---------------------------------------------------------------------------------------------------------------------->
+
+<h2 align="center">
+  CrispyBox
+  <br>
+  <br>
+  <img src="https://github.com/APrettyCoolProgram/CrispyDeven/blob/master/reporesource/image/CrispyBoxLogoLarge.png" alt="CrispyDeven" width="200">
+  <br>
+  <br>
+  A cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM 
+</h2>
+
+<div align="center">
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
-    <img src="https://img.shields.io/badge/Platform-Linux--32%2F64-blue.svg" alt=".NET version">
-    <img src="https://img.shields.io/badge/Development%20Status-Active-brightgreen.svg" alt="Development status">
-    <a href="https://help.github.com/articles/about-pull-requests/">
-        <img src="https://img.shields.io/badge/Pull Requests-Go%20for%20it-brightgreen.svg?style=shields" alt="Pull requests">
-    </a>
-</h1>
+    <img src="https://img.shields.io/badge/Platform-Linux-blue.svg" alt="Platform">
+    <img src="https://img.shields.io/badge/Language-Bash-blue.svg" alt="Language">
+    <img src="https://img.shields.io/badge/status-maintained-green.svg" alt="Maintained">
+</div>
+
+<h4 align="center">
+  Current release: 19.1 (released January 2019)
+</h4>
+
+<h5 align="left">
+
+  ### CONTENTS
+  [FEATURES](#features)<br>
+  [REQUIREMENTS](#requirments)<br>
+  [BEFORE YOU BEGIN](#before-you-begin)<br>
+  [INSTALLATION](#installation)<br>
+  [CONFIGURATION](#configuration)<br>
+  [USAGE](#usage)<br>
+  [HOW IT WORKS](#how-it-works)<br>
+  [FAQ](#faq)<br>
+  [DEVELOPMENT](#development)<br>
+  [ADDENDUM](#addendum)
+
+</h5>
+
+***
 
 CrispyBox, part of the [Crispy project](https://github.com/APrettyCoolProgram/Crispy), is a a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
 
