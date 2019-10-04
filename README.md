@@ -7,7 +7,7 @@
   CrispyBox
   <br>
   <br>
-  <img src="https://github.com/APrettyCoolProgram/CrispyDeven/blob/master/reporesource/image/CrispyBoxLogoLarge.png" alt="CrispyDeven" width="200">
+  <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/reporesource/image/CrispyBoxLogoLarge.png" alt="CrispyDeven" width="200">
   <br>
   <br>
   A cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM 
