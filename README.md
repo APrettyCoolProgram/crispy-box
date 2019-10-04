@@ -6,18 +6,23 @@
 <h2 align="center">
   CrispyBox
   <br>
+  <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/reporesource/image/CrispyBoxLogoLarge.png" alt="CrispyBox" width="200">
   <br>
-  <img src="https://github.com/APrettyCoolProgram/CrispyBox/blob/master/reporesource/image/CrispyBoxLogoLarge.png" alt="CrispyDeven" width="200">
+  Easily build custom development environments in Linux
+
   <br>
   <br>
-  A cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM 
 </h2>
+<br>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
-    <img src="https://img.shields.io/badge/Platform-Linux-blue.svg" alt="Platform">
-    <img src="https://img.shields.io/badge/Language-Bash-blue.svg" alt="Language">
-    <img src="https://img.shields.io/badge/status-maintained-green.svg" alt="Maintained">
+
+  ![Status](https://img.shields.io/badge/status-maintained-green.svg)
+  ![GitHub release](https://img.shields.io/github/release/aprettycoolprogram/CrispyBox?label=latest%20release)
+  ![MadeFor](https://img.shields.io/badge/made_for-linux-blue.svg)
+  ![MadeWith](https://img.shields.io/badge/made_with-bash-blue.svg)
+  [![License](https://img.shields.io/github/license/APrettyCoolProgram/CrispyBox)](https://www.apache.org/licenses/LICENSE-2.0)
+
 </div>
 
 <h4 align="center">
