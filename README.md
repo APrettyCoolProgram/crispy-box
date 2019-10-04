@@ -109,7 +109,7 @@ All icons are from [Icons8](www.icons8.com)
   <br>
   <a href="https://github.com/APrettyCoolProgram/Crispy"><b>Crispy</b></a>
   <br>
-  A collection of projects focusing on development environments and Linux
+  A collection of projects focusing on Linux environments
 </div>
 <br>
 
