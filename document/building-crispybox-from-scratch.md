@@ -3,7 +3,7 @@
 These are the steps/guidelines I used to create CrispyBox 20.0
 
 ### What you will need
-* The [32-bit Debian 10.2.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-10.2.0-i386-netinst.iso)
+* The [32-bit Debian 9.2.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.2.0-i386-netinst.iso)
 * [VirtualBox 6.1.0](https://www.virtualbox.org/wiki/Downloads)
 
 Other versions of Debian and VirtualBox will probably work, but have not been tested. Other Debian-based distributions will probably work, but may require some code modifications.

@@ -42,18 +42,7 @@ specific language governing permissions and limitations under the License.
   [REQUIREMENTS](#requirements)<br>
   [BEFORE YOU BEGIN](#before-you-begin)<br>
   [GETTING STARTED](#getting-started)<br>
-  [INSTALLING](#installing)<br>
-  [BUILD PROCESS](#build-process)<br>
-  [SETUP](#setup)<br>
-  [CONFIGURATION](#configuration)<br>
   [USAGE](#usage)<br>
-  [UPDATING](#updating)<br>
-  [UNINSTALLING](#uninstalling)<br>
-  [DEMO](#demo)<br>
-  [HOW IT WORKS](#how-it-works)<br>
-  [API](#api)<br>
-  [FAQ](#faq)<br>
-  [SUPPORT](#support)<br>
   [DEVELOPMENT](#development)<br>
 
 </h5>
@@ -72,11 +61,11 @@ CrispyBox is updated at the beginning of every year. After that, all updates are
 # REQUIREMENTS
 In order to use CrispyBox, you'll need:
 * Oracle VirtualBox, ([version 6.1.0 recommended](https://www.virtualbox.org/wiki/Downloads))
-* The [CrispyBox 20.0 VirtualBox Virtual Machine image](https://github.com/APrettyCoolProgram/CrispyBox/releases/download/19.1/CrispyBox-19.1.7z) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md))
+* The [CrispyBox 20.0 VirtualBox Virtual Machine image](https://github.com/APrettyCoolProgram/CrispyBox/releases/download/19.1/CrispyBox-20.0.7z) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md))
 * 512MB of RAM and a minimum of 2GBGB space to store the VM (which may increase, depending on use)
 
 # BEFORE YOU BEGIN
-CrispyBox is updated once a year in January, using the latest versions of VirtualBox and Debian.
+CrispyBox is updated once a year in January.
 
 ### RELATED PROJECTS
 * [**Crispy**](https://github.com/APrettyCoolProgram/crispy)
