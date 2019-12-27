@@ -1,0 +1,19 @@
+## FILENAME: .gitignore
+## VERSION: 191203
+## UPDATED: 12-3-2019 (11:20 PM)
+## A general .gitignore file for GitHub repositories
+## Most of this has been copy/pasted from https://github.com/github/gitignore
+## Changelog at EOF
+
+##
+## PLEASE READ
+## This .gitignore file is specific to gru-repository-template.
+##
+## You are probably looking for this:
+##
+##    https://github.com/APrettyCoolProgram/DotfilesAndGistsEtc/blob/master/Dotfiles/gitignore/general.gitignore
+
+# Temporary directories and files
+*_[Ss]cratch/
+*.DS_store
+*Thumbs.db
