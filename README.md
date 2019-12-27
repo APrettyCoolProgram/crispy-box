@@ -84,7 +84,7 @@ then get the IP for CrispyBox:
 
 ```$ ip addr show```
 
-Finally, using your preferred method, map to "\\<IP_ADDRESS>\CrispyBox".
+Finally, using your preferred method, map to `\\<IP_ADDRESS>\CrispyBox`.
 
 # DEVELOPMENT
 This project is currently being developed by [A Pretty Cool Program](https://github.com/APrettyCoolProgram). You can view the version history [here](document/changelog.md).
