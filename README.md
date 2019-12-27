@@ -87,12 +87,12 @@ then get the IP for CrispyBox:
 Finally, using your preferred method, map to "\\<IP_ADDRESS>\CrispyBox".
 
 # DEVELOPMENT
-This project is currently being developed by [A Pretty Cool Program](https://github.com/APrettyCoolProgram). You can view the version history [here](documentation/changelog.md).
+This project is currently being developed by [A Pretty Cool Program](https://github.com/APrettyCoolProgram). You can view the version history [here](document/changelog.md).
 
 If your interested in what's coming in the next release, the development branch of the project can be found [development branch](https://github.com/aprettycoolprogram/a-repository-template/tree/development). You can also read the [development notes](development/development-notes.md).
 
 ### CONTRIBUTING
-If you are interested in contributing to this project, please review our [code of conduct](documentation/code-of-conduct.md), [contributing guidelines](document/code-of-conduct.md), and [testing procedures](document/testing.md) documentation.
+If you are interested in contributing to this project, please review our [code of conduct](document/code-of-conduct.md), [contributing guidelines](document/code-of-conduct.md), and [testing procedures](document/testing.md) documentation.
 
 ***
 
