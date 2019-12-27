@@ -30,7 +30,7 @@ specific language governing permissions and limitations under the License.
 
   ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
   [![License](https://img.shields.io/github/license/aprettycoolprogram/gru-repository-template)](https://www.apache.org/licenses/LICENSE-2.0)
-  ![GitHub release](https://img.shields.io/github/release/aprettycoolprogram/crispy-box?label=latest%20release)
+  [![GitHub release](https://img.shields.io/github/release/aprettycoolprogram/crispy-box?label=latest%20release)](https://github.com/APrettyCoolProgram/crispy-box/releases)
 
 </div>
 
