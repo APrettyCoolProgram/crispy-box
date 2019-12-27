@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# CrispyBox 2019
-# Version 19.1
+# CrispyBox 2020
+# Version 20.0
 # https://github.com/APrettyCoolProgram/CrispyBox
 
 # Update system and install prerequisites.
@@ -20,7 +20,7 @@ sudo smbpasswd -a crispy
 printf "[CrispyBox]\npath = /home/crispy\navailable = yes\nvalid users = crispy\nread only = no\nbrowsable = yes\npublic = yes\nwritable = yes" | sudo tee -a /etc/samba/smb.conf
 
 # Update the MOTD
-printf "\n ***********************\n CrispyBox 19.1\n ***********************\n\n"  | sudo tee -a /etc/motd
+printf "\n ***********************\n CrispyBox 20.0\n ***********************\n\n"  | sudo tee -a /etc/motd
 
 # Cleanup.
 sudo apt purge -y dictionaries-common ispell wamerican laptop-detect vim-common
@@ -36,8 +36,5 @@ sudo rm -rf /var/cache/apt/archives/partial/*deb
 sudo rm -rf /var/lib/apt/lists/*
 rm crispybox-build.sh
 sudo e4defrag /
-cat /dev/zero > zero.file
-sync
-rm zero.file
 history -cw
 sudo shutdown -h now

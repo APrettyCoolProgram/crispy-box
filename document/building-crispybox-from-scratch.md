@@ -1,15 +1,15 @@
 # Building your own CrispyBox
 
-These are the steps/guidelines I used to create CrispyBox 19.1
+These are the steps/guidelines I used to create CrispyBox 20.0
 
 ### What you will need
-* The [32-bit Debian 9.6.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.6.0-i386-netinst.iso)
-* [VirtualBox 6.0.0](https://www.virtualbox.org/wiki/Downloads)
+* The [32-bit Debian 10.2.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-10.2.0-i386-netinst.iso)
+* [VirtualBox 6.1.0](https://www.virtualbox.org/wiki/Downloads)
 
 Other versions of Debian and VirtualBox will probably work, but have not been tested. Other Debian-based distributions will probably work, but may require some code modifications.
 
 ### Building the base image
-Create VirtualBox v6.0.0 Virtual Machine. The following specifications are recommended, but you should modify them to suit your needs.
+Create VirtualBox v6.1.0 Virtual Machine. The following specifications are recommended, but you should modify them to suit your needs.
     
 |                 |   |
 |-----------------|---|
@@ -28,16 +28,14 @@ Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 | Hostname                            | CrispyBox |   |
 | Enable Shadow Passwords             | No |   |
 | Allow login as root                 | No |   |
-| Username/password                   | "crispy"/"crispy" |   | 
+| Username/password                   | crispybox/crispybox |   | 
 | Modules to load                     | usb-storage (USB storage | Unchecked |
-| Partitioning method                 | Primary | 10GB msdos-formatted "/" partition |
-|                                     | Logical | 700MB msdos-formatted "swap" partition |
+| Partitioning method                 | Guided |   |
 | Kernel                              | linux-image-686 |   |
 | Include in the initrd               | targeted |   |
 | Use non-free software               | No |   |
 | Use contrib software                | No |   |
 | Enable source repositories in APT   | No |   |
-| Allow login as root                 | No |   |
 | Packages to install                 | virtualbox-ose-guest-x11 | Unchecked |
 | Choose software to install          | Uncheck all options |   |
 | Device for boot loader installation | /dev/sda |   |
