@@ -40,15 +40,22 @@ Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 | Choose software to install          | Uncheck all options |   |
 | Device for boot loader installation | /dev/sda |   |
 
-Once the installation is complete, the system will reboot. When the system is back up, login as "crispy/crispy", then download and execute the CrispyBox build script:
+Once the installation is complete, the system will reboot. When the system is back up, login as "crispybox/crispybox"
+
+You may need to install `wget`:
+```
+$ sudo apt install -y  --no-install-recommends wget
+```	
+
+Then download and execute the CrispyBox build script:
 
 ```
-$ wget --no-check-certificate https://raw.githubusercontent.com/APrettyCoolProgram/CrispyBox/master/crispybox-build.sh
+$ wget --no-check-certificate https://raw.githubusercontent.com/APrettyCoolProgram/crispy-box/master/source/crispybox-build.sh
 $ chmod +x crispybox-build.sh
 $ ./crispybox-build.sh
 ```	
 
-When asked to enter the SAMBA password, enter "crispy".
+When asked to enter the SAMBA password, enter "crispybox".
 
 After the script completes, the system will shutdown.
 	
