@@ -3,7 +3,7 @@
 These are the steps/guidelines I used to create CrispyBox 20.0
 
 ### What you will need
-* The [32-bit Debian 10.2.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-10.2.0-i386-netinst.iso)
+* The [32-bit Debian 9.2.0 netinst iso](https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-9.2.0-i386-netinst.iso)
 * [VirtualBox 6.1.0](https://www.virtualbox.org/wiki/Downloads)
 
 Other versions of Debian and VirtualBox will probably work, but have not been tested. Other Debian-based distributions will probably work, but may require some code modifications.
@@ -40,16 +40,23 @@ Then, install Debian 9.6.0, using "Advanced Options > Expert Install"
 | Choose software to install          | Uncheck all options |   |
 | Device for boot loader installation | /dev/sda |   |
 
-Once the installation is complete, the system will reboot. When the system is back up, login as "crispy/crispy", then download and execute the CrispyBox build script:
+Once the installation is complete, the system will reboot. When the system is back up, login as "crispybox/crispybox"
+
+You may need to install `wget`:
+```
+$ sudo apt install -y  --no-install-recommends wget
+```	
+
+Then download and execute the CrispyBox build script:
 
 ```
-$ wget --no-check-certificate https://raw.githubusercontent.com/APrettyCoolProgram/CrispyBox/master/crispybox-build.sh
+$ wget --no-check-certificate https://raw.githubusercontent.com/APrettyCoolProgram/crispy-box/master/source/crispybox-build.sh
 $ chmod +x crispybox-build.sh
 $ ./crispybox-build.sh
 ```	
 
-When asked to enter the SAMBA password, enter "crispy".
+When asked to enter the SAMBA password, enter "crispybox".
 
 After the script completes, the system will shutdown.
 	
-Start the VM, and then follow the instructions under "Using CrispyBox" [here](https://github.com/APrettyCoolProgram/CrispyBox).
+Start the VM, and then follow the instructions under "Using CrispyBox" [here](https://github.com/APrettyCoolProgram/crispy-box).

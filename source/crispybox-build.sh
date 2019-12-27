@@ -15,9 +15,9 @@ printf "if [[ \$TERM != "screen" ]]; then\n    screen ~/.dropbox-dist/dropboxd\n
 
 # Setup the SAMBA share.
 clear
-printf "Please enter the samba password for the crispybox user:\n"
-sudo smbpasswd -a crispybox
-printf "[CrispyBox]\npath = /home/crispybox\navailable = yes\nvalid users = crispybox\nread only = no\nbrowsable = yes\npublic = yes\nwritable = yes" | sudo tee -a /etc/samba/smb.conf
+printf "Please enter the samba password for the crispy user:\n"
+sudo smbpasswd -a crispy
+printf "[CrispyBox]\npath = /home/crispy\navailable = yes\nvalid users = crispy\nread only = no\nbrowsable = yes\npublic = yes\nwritable = yes" | sudo tee -a /etc/samba/smb.conf
 
 # Update the MOTD
 printf "\n ***********************\n CrispyBox 20.0\n ***********************\n\n"  | sudo tee -a /etc/motd
