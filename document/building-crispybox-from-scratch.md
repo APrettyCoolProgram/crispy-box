@@ -59,4 +59,4 @@ When asked to enter the SAMBA password, enter "crispybox".
 
 After the script completes, the system will shutdown.
 	
-Start the VM, and then follow the instructions under "Using CrispyBox" [here](https://github.com/APrettyCoolProgram/CrispyBox).
+Start the VM, and then follow the instructions under "Using CrispyBox" [here](https://github.com/APrettyCoolProgram/crispy-box).
