@@ -18,7 +18,7 @@ specific language governing permissions and limitations under the License.
 <h2 align="center">
   CrispyBox
   <br>
-  <img src="https://github.com/aprettycoolprogram/crispybox/blob/master/repository-resource/image/logo/crispybox-logo-100,100.png" alt="CrispyBox" width="100">
+  <img src="https://github.com/APrettyCoolProgram/crispy-box/blob/master/repository-resource/image/logo/crispybox-logo-100x100.png" alt="CrispyBox" width="100">
   <br>
   A small, cross-platform, portable, VirtualBox Linux VM with Dropbox via SAMBA
   <br>
@@ -61,7 +61,7 @@ CrispyBox is updated at the beginning of every year. After that, all updates are
 # REQUIREMENTS
 In order to use CrispyBox, you'll need:
 * Oracle VirtualBox, ([version 6.1.0 recommended](https://www.virtualbox.org/wiki/Downloads))
-* The [CrispyBox 20.0 VirtualBox Virtual Machine image](https://github.com/APrettyCoolProgram/CrispyBox/releases/download/19.1/CrispyBox-20.0.7z) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/CrispyBox/blob/master/Building-CrispyBox-from-scratch.md))
+* The [CrispyBox 20.0 VirtualBox Virtual Machine image](https://github.com/APrettyCoolProgram/CrispyBox/releases/download/19.1/CrispyBox-20.0.7z) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/crispy-box/blob/master/document/building-crispybox-from-scratch.md))
 * 512MB of RAM and a minimum of 2GBGB space to store the VM (which may increase, depending on use)
 
 # BEFORE YOU BEGIN
@@ -94,9 +94,6 @@ If your interested in what's coming in the next release, the development branch 
 ### CONTRIBUTING
 If you are interested in contributing to this project, please review our [code of conduct](documentation/code-of-conduct.md), [contributing guidelines](documentation/code-of-conduct.md), and [testing procedures](documentation/testing.md) documentation.
 
-<!-- DEVELOPER INFORMATION [Required] ---------------------------------------------------------------------------------
-Developer information.
------------------------------------------------------------------------------ (Remove this comment block when done) -->
 ***
 
 <div align="center">
