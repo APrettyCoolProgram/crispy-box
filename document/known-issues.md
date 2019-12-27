@@ -1,1 +1,0 @@
-﻿# KNOWN ISSUES: CrispyBox

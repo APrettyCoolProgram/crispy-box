@@ -1,1 +1,0 @@
-﻿# CrispyBox Development Notes
