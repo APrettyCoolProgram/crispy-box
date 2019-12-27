@@ -61,7 +61,7 @@ CrispyBox is updated at the beginning of every year. After that, all updates are
 # REQUIREMENTS
 In order to use CrispyBox, you'll need:
 * Oracle VirtualBox, ([version 6.1.0 recommended](https://www.virtualbox.org/wiki/Downloads))
-* The [CrispyBox 20.0 VirtualBox Virtual Machine image](https://github.com/APrettyCoolProgram/CrispyBox/releases/download/19.1/CrispyBox-20.0.7z) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/crispy-box/blob/master/document/building-crispybox-from-scratch.md))
+* The [CrispyBox 20.0 VirtualBox Virtual Machine image](https://github.com/APrettyCoolProgram/CrispyBox/releases/download/20.0/CrispyBox-20.0.7z) (or, if you would like, you can also [build your own](https://github.com/APrettyCoolProgram/crispy-box/blob/master/document/building-crispybox-from-scratch.md))
 * 512MB of RAM and a minimum of 2GBGB space to store the VM (which may increase, depending on use)
 
 # BEFORE YOU BEGIN
