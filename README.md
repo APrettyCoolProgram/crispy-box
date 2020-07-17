@@ -18,9 +18,9 @@ specific language governing permissions and limitations under the License.
 <h2 align="center">
   CrispyBox
   <br>
-  <img src="https://github.com/APrettyCoolProgram/crispy-box/blob/master/repository-resource/image/logo/crispybox-logo-100x100.png" alt="CrispyBox" width="100">
+  <img src="https://github.com/APrettyCoolProgram/crispybox/blob/master/repository-resource/image/logo/crispybox-logo-100x100.png" alt="CrispyBox" width="100">
   <br>
-  A small, cross-platform, portable, VirtualBox Linux VM with Dropbox via SAMBA
+  A small, cross-platform, portable Dropbox client
   <br>
   <br>
 </h2>
@@ -29,7 +29,7 @@ specific language governing permissions and limitations under the License.
 <div align="center">
 
   ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
-  [![License](https://img.shields.io/github/license/aprettycoolprogram/gru-repository-template)](https://www.apache.org/licenses/LICENSE-2.0)
+  [![License](https://img.shields.io/github/license/aprettycoolprogram/crispybox)](https://www.apache.org/licenses/LICENSE-2.0)
   [![GitHub release](https://img.shields.io/github/release/aprettycoolprogram/crispy-box?label=latest%20release)](https://github.com/APrettyCoolProgram/crispy-box/releases)
 
 </div>
@@ -50,7 +50,7 @@ specific language governing permissions and limitations under the License.
 # ABOUT THIS REPOSITORY
 CrispyBox, is a small-footprint, cross-platform, portable, official Dropbox client built on a VirtualBox Linux VM using SAMBA.
 
-CrispyBox is updated at the beginning of every year. After that, all updates are done from within the VM.
+CrispyBox is released using rolling updates. Just grab the latest version (it may be a few months old, don't worry), and use standard update/upgrade
 
 # FEATURES
 * CrispyBox is **tiny**. The standard build of CrispyBox only needs 512MB RAM, and will take up the amount of space to store your Dropbox data, plus about 1GB for CrispyBox itself.
